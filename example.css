@@ -1,0 +1,33 @@
+.innp > p> input { /*innp는 div니까 구역이 됨. >input으로 자식요소에 적용해줘야지*/
+    width: 35px;  
+  }
+
+
+.innp > p > input:valid {
+    background-color: hsl(196, 61%, 87%); /* 입력된 유효한 칸의 배경색을 하늘색으로 지정 */
+}
+
+
+.square {
+    display: inline-block;
+    vertical-align: middle;
+    width: 3em;
+    height: 1.4em;
+    border: 2px solid;
+    font-size: 1em;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+
+
+  .longg {
+    width: 500px;
+    height: 2em;
+  }
+
+
+
+
